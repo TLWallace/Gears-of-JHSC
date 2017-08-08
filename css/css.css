@@ -1,0 +1,737 @@
+*
+	{
+		border: 0px solid #FFC0CB;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+/*nav
+nav
+	{
+		 
+	}*/
+ul.sidenav
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 10%;
+		background-color: #EAEAEA;
+		position: fixed;
+		height: 100%;
+		overflow: auto;
+	}
+ul.sidenav li a
+	{
+		display: block;
+		color: #000000;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+ul.sidenav li a.active
+	{
+		background-color: #006699;
+		color: #FFFFFF;
+	}
+ul.sidenav li a:hover:not(.active)
+	{
+		background-color: #555555;
+		color: #FFFFFF;
+	}
+div.content
+	{
+		padding: 1px 16px;
+		height: 100%;
+	}
+/*tbody
+	{
+		page-break-inside: avoid; /*WRT print view: does not behave as expected; css-wise, unsure if I created any conflicts...*//*
+	}*/
+img
+	{
+		/*width: 10%;
+		height: 10%;*/
+		max-height: 88px;
+		max-width: 87px;
+		min-height: 32px;
+		min-width: 31px;
+	}
+.pcaption
+	{
+		font-size: 36px;
+		font-weight: bold;
+		text-align: left;
+		color: #003333;
+		margin-left: 11%;
+		max-width: 50%;
+	}
+tbody tr:nth-child(even)
+	{
+	   background-color: #EAEAEA;
+	}
+body
+	{
+		text-align: center;
+	}
+h
+	{
+		text-align: left;
+	}
+p
+	{
+		text-align: left;
+	}
+th
+	{
+		text-align: left;
+	}
+td
+	{
+		text-align: left;
+	}
+.hrtcaption1
+	{
+		border: 1px solid #003333;
+	}
+.hrth1
+	{
+		border: 1px solid #006633;
+	}
+.hrth3
+	{
+		border: 1px solid #006699;
+	}
+.tcaption1
+	{
+		font-size: 36px;
+		font-weight: bold;
+		color: #003333;
+	}
+.th0
+	{
+		text-align: right;
+		font-size: 24px;
+		font-weight: bold;
+		color: #006633;
+	}
+.th1
+	{
+		text-align: right;
+		font-size: 18px;
+		font-weight: bold;
+		font-style: italic;
+		color: #006633;
+	}
+.th2
+	{
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+		color: #006666;
+	}
+.th3
+	{
+		text-align: right;
+		font-size: 16px;
+		font-weight: bold;
+		color: #006699;
+	}
+.td0
+	{
+		text-align: right;
+		font-size: 14px;
+	}
+.td1
+	{
+		text-align: right;
+		font-size: 14px;
+		font-weight: bold;
+	}
+.td2
+	{
+		text-align: center;
+		font-size: 12px;
+	}
+.td3
+	{
+		font-size: 12px;
+	}
+.td4
+	{
+		font-size: 10px;
+	}
+.td5
+	{
+		text-align: right;
+		font-size: 10px;
+	}
+.td6
+	{
+		text-align: left;
+		font-size: 12px;
+	}
+.datalistcss
+	{
+		width: 100%;
+		border-bottom: 1px solid #000000;
+		border-left: 1px solid #000000;
+	}
+input:focus, textarea:focus
+	{  
+		background-color: #FFC0CB;
+	}
+.smallprint
+	{
+		display: block;
+		clear: both;
+		font-size: 8px;
+	}
+select
+	{
+		width: 100%;
+		border-bottom: 1px solid #000000;
+		border-left: 1px solid #000000;
+	}
+.slct
+	{
+		width: 15%;
+		border-bottom: 1px solid #000000;
+		border-left: 1px solid #000000;
+	}
+input[type=date]
+	{
+		width: 100%;
+		border-bottom: 1px solid #000000;
+		border-left: 1px solid #000000;
+	}
+input[type=text]
+	{
+		max-height: 90%;
+		border-bottom: 1px solid #000000;
+	}
+input[type=password]
+	{
+		max-height: 90%;
+		border-bottom: 1px solid #000000;
+	}
+
+textarea
+	{
+		width: 100%;
+		min-width: 300px;
+		border-bottom: 1px solid #000000;
+		border-left: 1px solid #000000;
+	}
+.button
+	{
+		width: 10%;
+	}
+.button2
+	{
+		background-color: #006699;
+		border: none;
+		padding: 20px 10px;
+		color: #FFFFFF;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		transition-duration: 0.4s;
+	}
+.button3
+	{
+		background-color: #FF0000;
+		border: none;
+		padding: 20px 10px;
+		color: #FFFFFF;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		transition-duration: 0.4s;
+	}
+.buttonh:hover
+	{
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.25),0 17px 50px 0 rgba(0,0,0,0.125);
+	}
+footer
+	{
+		clear: both;
+	}
+.footerl
+	{
+		font-size: 12px;
+	}
+.footerm
+	{
+		font-size: 10px;
+	}
+.footers
+	{
+		font-size: 8px;
+	}
+@media print
+	{
+		nav{display:none;}
+		.th0{text-align:right;font-size:20px;font-weight:bold;color:#006633;}
+		.noPrintD * {display:none!important;}
+		.noPrintO * {opacity:0!important;}
+		input{color:transparent;}
+		select{color:transparent;}
+		.smallprint{display:none;}
+		::-webkit-input-placeholder{/* WebKit browsers */color:transparent;}
+		:-moz-placeholder{/* Mozilla Firefox 4 to 18 */color:transparent;}
+		::-moz-placeholder{/* Mozilla Firefox 19+ */color:transparent;}
+		:-ms-input-placeholder{/* Internet Explorer 10+ not working with transparent or white*/color:inherit;}
+		.pBJHSCRAF{page-break-before:always;}/*page break workaround attempt for tr overlapping thead on page two*/
+		input[type="radio"]{display:none;}
+		input[type=submit]{display:none;}
+		input[type=reset]{display:none;}
+	}
+/*form*/
+.pJHSCRAF
+	{
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+#form1
+	{
+		clear: left;
+	}
+/*admin*/
+.pJHSCRAA
+	{
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+.th4
+	{
+		text-align: left;
+		font-size: 24px;
+		font-weight: bold;
+		color: #006633;
+	}
+.th5
+	{
+		font-size: 18px;
+		font-weight: bold;
+		font-style: italic;
+		color: #006633;
+	}
+.th6
+	{
+		font-size: 18px;
+		font-weight: bold;
+		color: #006666;
+	}
+.th7
+	{
+		font-size: 16px;
+		font-weight: bold;
+		color: #006699;
+	}
+.adminSection
+	{
+		clear: left;
+	}
+.adminFetch
+	{
+		float: left;
+		display: block;
+		clear: both;
+	}
+.adminSubmit
+	{
+		float: left;
+		display: block;
+		clear: both;
+		text-align: left;
+	}
+.danger
+	{
+		color: #FF0000;
+	}
+/*report*/
+.pJHSCRAR
+	{
+		margin-left: 5%;
+	}
+.reportSection
+	{
+		clear: left;
+		margin-left: 5%;
+	}
+.reportFetch
+	{
+		float: left;
+		display: block;
+		clear: both;
+		margin-left: 5%;
+	}
+.reportTable
+	{
+		border-left: 2px solid #000000;
+	}
+.reportTableCell
+	{
+		border-left: 1px solid #000000;
+		padding-left: 4px;
+	}
+.reportFormButton
+	{
+		display: inline-block;
+	}
+.buttonReport
+	{
+		width: 10%;
+	}
+.buttonReport2
+	{
+		background-color: #006699;
+		border: none;
+		padding: 10px 5px;
+		color: #FFFFFF;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		transition-duration: 0.4s;
+	}
+.buttonReport3
+	{
+		background-color: #FF0000;
+		border: none;
+		padding: 10px 5px;
+		color: #FFFFFF;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		transition-duration: 0.4s;
+	}
+.buttonreporth:hover
+	{
+		box-shadow: 0 6px 8px 0 rgba(0,0,0,0.25),0 17px 50px 0 rgba(0,0,0,0.125);
+	}
+
+@media screen and (max-width: 1400px)
+	{
+		ul.sidenav
+			{
+				width:100%;
+				height:auto;
+				position:relative;
+			}
+		ul.sidenav li a
+			{
+				float: left;
+				padding: 15px;
+			}
+		/*div.content {margin-left:0;}*/
+		img
+			{
+				padding-top: 5px;
+				min-height: 32px;
+				min-width: 31px;
+			}
+		.th0
+			{
+				text-align: right;
+				font-size: 34px;
+				font-weight: bold;
+				color: #006633;
+			}
+		.th1
+			{
+				text-align: right;
+				font-size: 28px;
+				font-weight: bold;
+				font-style: italic;
+				color: #006633;
+			}
+		.smallprint
+			{
+				display: block;
+				clear: both;
+				font-size: 18px;
+			}
+		.th2
+			{
+				text-align: center;
+				font-size: 28px;
+				font-weight: bold;
+				color: #006666;
+			}
+		.th3
+			{
+				text-align: right;
+				font-size: 26px;
+				font-weight: bold;
+				color: #006699;
+			}
+		.td1
+			{
+				text-align: right;
+				font-size: 24px;
+				font-weight: bold;
+			}
+		.td2
+			{
+				text-align: center;
+				font-size: 22px;
+			}
+		.td3
+			{
+				font-size: 22px;
+			}
+		.td6
+			{
+				text-align: left;
+				font-size: 22px;
+			}
+		.datalistcss
+			{
+				width: 100%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+				border-left: 1px solid #000000;
+			}
+		select
+			{
+				width: 100%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+				border-left: 1px solid #000000;
+			}
+		.slct
+			{
+				width: 15%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+				border-left: 1px solid #000000;
+			}
+		input[type=date]
+			{
+				width: 100%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+				border-left: 1px solid #000000;
+			}
+		input[type=text]
+			{
+				max-height: 90%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+			}
+		input[type=password]
+			{
+				max-height: 90%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+			}
+		
+		textarea
+			{
+				width: 100%;
+				min-width: 300px;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+				border-left: 1px solid #000000;
+			}
+		.button2
+			{
+				background-color: #006699;
+				border: none;
+				padding: 20px 10px;
+				color: #FFFFFF;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 18px;
+				margin: 4px 2px;
+				transition-duration: 0.4s;
+			}
+		.button3
+			{
+				background-color: #FF0000;
+				border: none;
+				padding: 20px 10px;
+				color: #FFFFFF;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 18px;
+				margin: 4px 2px;
+				transition-duration: 0.4s;
+			}
+		.footerl
+			{
+				font-size: 17px;
+			}
+		.footerm
+			{
+				font-size: 15px;
+			}
+		.footers
+			{
+				font-size: 13px;
+			}
+	}
+@media screen and (max-width: 400px)
+	{
+		ul.sidenav li a
+			{
+				text-align: center;
+				float: none;
+			}
+		img
+			{
+				padding-top: 5px;
+				min-height: 32px;
+				min-width: 31px;
+			}
+		.th0
+			{
+				text-align: right;
+				font-size: 34px;
+				font-weight: bold;
+				color: #006633;
+			}
+		.th1
+			{
+				text-align: right;
+				font-size: 28px;
+				font-weight: bold;
+				font-style: italic;
+				color: #006633;
+			}
+		.smallprint
+			{
+				display: block;
+				clear: both;
+				font-size: 18px;
+			}
+		.th2
+			{
+				text-align: center;
+				font-size: 28px;
+				font-weight: bold;
+				color: #006666;
+			}
+		.th3
+			{
+				text-align: right;
+				font-size: 26px;
+				font-weight: bold;
+				color: #006699;
+			}
+		.td1
+			{
+				text-align: right;
+				font-size: 24px;
+				font-weight: bold;
+			}
+		.td2
+			{
+				text-align: center;
+				font-size: 22px;
+			}
+		.td3
+			{
+				font-size: 22px;
+			}
+		.td6
+			{
+				text-align: left;
+				font-size: 22px;
+			}
+		.datalistcss
+			{
+				width: 100%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+				border-left: 1px solid #000000;
+			}
+		select
+			{
+				width: 100%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+				border-left: 1px solid #000000;
+			}
+		.slct
+			{
+				width: 15%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+				border-left: 1px solid #000000;
+			}
+		input[type=date]
+			{
+				width: 100%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+				border-left: 1px solid #000000;
+			}
+		input[type=text]
+			{
+				max-height: 90%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+			}
+		input[type=password]
+			{
+				max-height: 90%;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+			}
+		
+		textarea
+			{
+				width: 100%;
+				min-width: 300px;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+				border-left: 1px solid #000000;
+			}
+		.button2
+			{
+				background-color: #006699;
+				border: none;
+				padding: 20px 10px;
+				color: #FFFFFF;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 18px;
+				margin: 4px 2px;
+				transition-duration: 0.4s;
+			}
+		.button3
+			{
+				background-color: #FF0000;
+				border: none;
+				padding: 20px 10px;
+				color: #FFFFFF;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 18px;
+				margin: 4px 2px;
+				transition-duration: 0.4s;
+			}			
+		.footerl
+			{
+				font-size: 17px;
+			}
+		.footerm
+			{
+				font-size: 15px;
+			}
+		.footers
+			{
+				font-size: 13px;
+			}
+	}
